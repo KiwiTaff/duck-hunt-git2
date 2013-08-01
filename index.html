@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="css/normalize.min.css">
+        <link rel="stylesheet" href="css/main.css">
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+    </head>
+    
+    <body id="index">
+    
+      <div class="wrapper">
+        <img class="scene" src="img/Duck-Hunt2.jpg" alt="duck hunt background">
+        <canvas id="canvas" height="360" width="600"></canvas>
+
+        <audio id="audio">
+            <source src="audio/goose1.ogg" type="audio/ogg">
+            <source src="audio/goose1.mp3" type="audio/mpeg">
+          Your browser does not support the audio element.
+        </audio>
+        <audio id="gun">
+            <source src="audio/gun-fire2.ogg" type="audio/ogg">
+            <source src="audio/gun-fire2.mp3" type="audio/mpeg">
+        </audio>
+        <h5>Hit:<span id="score"></span></h5>
+        <div id="winner">
+          
+        </div>
+      </div><!--end .wrapper-->
+      
+      <div class="ie-message">
+            <div>
+                <h6>Unfortunately this game is not supported by your browser. Please update to play or just click to be in to win. 
+                </h6>
+                <a href="#">ENTER NOW!!</a>
+            </div>
+      </div>
+      <script src="js/vendor/jquery-1.9.0.min.js"></script>
+      <script src="js/main.js"></script>
+      <script src="js/vendor/jQueryRotateCompressed.js"></script>
+    </body>
+</html>
