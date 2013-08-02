@@ -95,68 +95,9 @@ h5{
     z-index: 20;
 }
 
-#winner{
-  display:none;
-  position:absolute;
-  top:15%;
-  left:15%;
-  width:60%;
-  height:50%;
-  margin:0;
-  padding:5%;
-  color:#fff;
-  text-align: center;
-  -webkit-border-radius: 8px;
-  -moz-border-radius: 8px;
-  border-radius: 8px;
-  -webkit-box-shadow: #666 0px 2px 3px;
-  -moz-box-shadow: #666 0px 2px 3px;
-  box-shadow: #666 0px 2px 3px;
-  background:#333;
-  background-color:rgba(0,0,0,0.8);
-  z-index:50;
 
-}
 
-/* ==========================================================================
-   IE8
-   ========================================================================== */
-  .ie-message{
-      display:none;
-  }
-  
-  .lt-ie9 .wrapper{
-      display:none;
-  }
-  
-  .lt-ie9 .ie-message{
-      display:block;
-      font-style: bold;   
-  }
 
-.lt-ie9 .ie-message h6{
-    font-size: 16px;
-    color:#222;
-}
-
-#winner a, .lt-ie9 .ie-message a{
-    color:#fff;
-    margin:auto;
-    width:180px;
-    padding:10px;
-    display:block;
-    background-color: #f79a21;
-    text-decoration: none;
-}
-
-   .lt-ie9 .ie-message div{
-     background:url('../img/Duck-Hunt.jpg');
-     width:360px;
-     height:350px;
-     padding:5px 120px;
-     margin:30px auto;
-     text-align:center;
- }
 
 /* ==========================================================================
    Media Queries
